@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TAIKHOAN.master.cs" Inherits="QuanLyCuaHangDienTu.TAIKHOAN" %>
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>HOANG SHOP</title>
+<link href="Css/style.css" rel="stylesheet" />
+  
+  
+
+
+</head>
+
+<body>
+
+
+   <form id="form2" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+</body>
+
+</html>
+
+

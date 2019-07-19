@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="QuanLyCuaHangDienTu.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Hoang Shop</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Css/s.css" rel="stylesheet" />
+</head>
+<body style="height: 251px">
+    <div class="header">
+        <img src="Imagine/6-6.png" alt="Alternate Text" style="width:100%" />
+    </div>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+                
+                
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+   <footer>
+     <div class="container">
+       <div class="row">
+       
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                  <span class="logo" style="margin-left:30px">HOANG SHOP</span>
+                </div>
+                
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="menu" style="margin-left:30px">
+                         <span>DANH MỤC</span>    
+                         <li>
+                            <a href="TrangChuu.aspx">TRANG CHỦ</a>
+                          </li>
+                               
+                          <li>
+                             <a href="LienHe.aspx">HỎI ĐÁP</a>
+                          </li>
+                               
+                        </ul>
+                    </div>
+              </div>
+         </div>
+                   
+    </footer>
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="TrangChu.master.cs" Inherits="QuanLyCuaHangDienTu.TrangChu" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+        <div class="menu">
+            <ul>
+                <li><a href="TrangChuu.aspx">TRANG CHỦ</a></li>
+                <li><a href="ThongTin.aspx">SẢN PHẨM</a></li>
+                <li><a href="LienHe.aspx">LIÊN HỆ</a></li>
+                <li><a href="DANGNHAP.aspx">ĐĂNG NHẬP</a></li>
+
+            </ul>
+        </div>
+        <br />
+    
+    <asp:ContentPlaceHolder ID="maincontent" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="footer" runat="server">
+
+    </asp:ContentPlaceHolder>
+</asp:Content>
